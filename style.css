@@ -1,0 +1,19 @@
+div.gallery {
+  /* margin: 5px; */
+  /* border: 1px solid #ccc; */
+  /* float: left; */
+  /* width: 180px; */
+  width: 14vw;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 98vw;
+  height: 97vh;
+}
