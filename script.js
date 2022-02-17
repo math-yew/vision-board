@@ -1,21 +1,21 @@
 console.log("script");
 
 const imageArr = [
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg",
-  "i.jpg"
+  "art1.jpg",
+  "art2.jpg",
+  "art3.jpg",
+  "art4.jpg",
+  "family adventure.jpg",
+  "fit.jpg",
+  "gallery.jpg",
+  "good dad.jpg",
+  "family tree.jpg",
+  "healthy food.jpg",
+  "react.png",
+  "rushmore.jpg",
+  "sequoia.jpg",
+  "table.jpg",
+  "temple.jpg"
 ]
 
 let mainDiv = document.getElementById("main");
