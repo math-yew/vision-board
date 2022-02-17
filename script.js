@@ -1,6 +1,6 @@
 console.log("script");
 
-const imageArr = [
+const a = [
   "art1.jpg",
   "art2.jpg",
   "art3.jpg",
@@ -20,9 +20,16 @@ const imageArr = [
 
 let mainDiv = document.getElementById("main");
 
+function populate(imageArr){
 for (var i = 0; i < imageArr.length; i++) {
   let div = document.createElement("DIV");
   div.setAttribute("class", "gallery");
   div.style.backgroundImage = "url('images/"+ imageArr[i] +"')";
   document.getElementById("main").appendChild(div);
 }
+}
+
+populate(a);
+populate(b);
+populate(c);
+populate(d);
